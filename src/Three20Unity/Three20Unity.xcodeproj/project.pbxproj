@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66364C7E12BB1A9200823B28 /* Three20Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C4D12BB1A9200823B28 /* Three20Core.h */; };
+		66364C7F12BB1A9200823B28 /* Three20Core+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C4E12BB1A9200823B28 /* Three20Core+Additions.h */; };
+		66364C8012BB1A9200823B28 /* Three20Core_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 66364C4F12BB1A9200823B28 /* Three20Core_Prefix.pch */; };
+		66364C8112BB1A9200823B28 /* TTDebugFlags.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C5012BB1A9200823B28 /* TTDebugFlags.h */; };
+		66364C8212BB1A9200823B28 /* TTCorePreprocessorMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C5312BB1A9200823B28 /* TTCorePreprocessorMacros.h */; };
+		66364C8312BB1A9200823B28 /* TTGlobalCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C5412BB1A9200823B28 /* TTGlobalCore.h */; };
+		66364C8412BB1A9200823B28 /* TTGlobalCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C5512BB1A9200823B28 /* TTGlobalCore.m */; };
+		66364C8512BB1A9200823B28 /* TTGlobalCoreLocale.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C5612BB1A9200823B28 /* TTGlobalCoreLocale.h */; };
+		66364C8612BB1A9200823B28 /* TTGlobalCoreLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C5712BB1A9200823B28 /* TTGlobalCoreLocale.m */; };
+		66364C8712BB1A9200823B28 /* TTGlobalCorePaths.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C5812BB1A9200823B28 /* TTGlobalCorePaths.h */; };
+		66364C8812BB1A9200823B28 /* TTGlobalCorePaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C5912BB1A9200823B28 /* TTGlobalCorePaths.m */; };
+		66364C8912BB1A9200823B28 /* TTGlobalCoreRects.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C5A12BB1A9200823B28 /* TTGlobalCoreRects.h */; };
+		66364C8A12BB1A9200823B28 /* TTGlobalCoreRects.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C5B12BB1A9200823B28 /* TTGlobalCoreRects.m */; };
+		66364C8B12BB1A9200823B28 /* NSArrayAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C5D12BB1A9200823B28 /* NSArrayAdditions.h */; };
+		66364C8C12BB1A9200823B28 /* NSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C5E12BB1A9200823B28 /* NSArrayAdditions.m */; };
+		66364C8D12BB1A9200823B28 /* NSDataAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C5F12BB1A9200823B28 /* NSDataAdditions.h */; };
+		66364C8E12BB1A9200823B28 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C6012BB1A9200823B28 /* NSDataAdditions.m */; };
+		66364C8F12BB1A9200823B28 /* NSDateAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C6112BB1A9200823B28 /* NSDateAdditions.h */; };
+		66364C9012BB1A9200823B28 /* NSDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C6212BB1A9200823B28 /* NSDateAdditions.m */; };
+		66364C9112BB1A9200823B28 /* NSMutableArrayAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C6312BB1A9200823B28 /* NSMutableArrayAdditions.h */; };
+		66364C9212BB1A9200823B28 /* NSMutableArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C6412BB1A9200823B28 /* NSMutableArrayAdditions.m */; };
+		66364C9312BB1A9200823B28 /* NSMutableDictionaryAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C6512BB1A9200823B28 /* NSMutableDictionaryAdditions.h */; };
+		66364C9412BB1A9200823B28 /* NSMutableDictionaryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C6612BB1A9200823B28 /* NSMutableDictionaryAdditions.m */; };
+		66364C9512BB1A9200823B28 /* NSObjectAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C6712BB1A9200823B28 /* NSObjectAdditions.h */; };
+		66364C9612BB1A9200823B28 /* NSObjectAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C6812BB1A9200823B28 /* NSObjectAdditions.m */; };
+		66364C9712BB1A9200823B28 /* NSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C6912BB1A9200823B28 /* NSStringAdditions.h */; };
+		66364C9812BB1A9200823B28 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C6A12BB1A9200823B28 /* NSStringAdditions.m */; };
+		66364C9912BB1A9200823B28 /* TTDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C6C12BB1A9200823B28 /* TTDebug.h */; };
+		66364C9A12BB1A9200823B28 /* TTDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C6D12BB1A9200823B28 /* TTDebug.m */; };
+		66364C9B12BB1A9200823B28 /* TTExtensionLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C6F12BB1A9200823B28 /* TTExtensionLoader.h */; };
+		66364C9C12BB1A9200823B28 /* TTExtensionLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C7012BB1A9200823B28 /* TTExtensionLoader.m */; };
+		66364C9D12BB1A9200823B28 /* TTExtensionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C7112BB1A9200823B28 /* TTExtensionInfo.h */; };
+		66364C9E12BB1A9200823B28 /* TTExtensionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C7212BB1A9200823B28 /* TTExtensionInfo.m */; };
+		66364C9F12BB1A9200823B28 /* TTExtensionInfoPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C7412BB1A9200823B28 /* TTExtensionInfoPrivate.h */; };
+		66364CA012BB1A9200823B28 /* TTExtensionAuthor.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C7512BB1A9200823B28 /* TTExtensionAuthor.h */; };
+		66364CA112BB1A9200823B28 /* TTExtensionAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C7612BB1A9200823B28 /* TTExtensionAuthor.m */; };
+		66364CA212BB1A9200823B28 /* TTEntityTables.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C7812BB1A9200823B28 /* TTEntityTables.h */; };
+		66364CA312BB1A9200823B28 /* TTEntityTables.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C7912BB1A9200823B28 /* TTEntityTables.m */; };
+		66364CA412BB1A9200823B28 /* TTMarkupStripper.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364C7C12BB1A9200823B28 /* TTMarkupStripper.h */; };
+		66364CA512BB1A9200823B28 /* TTMarkupStripper.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C7D12BB1A9200823B28 /* TTMarkupStripper.m */; };
+		66364CA612BB1A9200823B28 /* Three20Core.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C4D12BB1A9200823B28 /* Three20Core.h */; };
+		66364CA712BB1A9200823B28 /* Three20Core+Additions.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C4E12BB1A9200823B28 /* Three20Core+Additions.h */; };
+		66364CA812BB1A9200823B28 /* Three20Core_Prefix.pch in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C4F12BB1A9200823B28 /* Three20Core_Prefix.pch */; };
+		66364CA912BB1A9200823B28 /* TTDebugFlags.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C5012BB1A9200823B28 /* TTDebugFlags.h */; };
+		66364CAA12BB1A9200823B28 /* TTCorePreprocessorMacros.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C5312BB1A9200823B28 /* TTCorePreprocessorMacros.h */; };
+		66364CAB12BB1A9200823B28 /* TTGlobalCore.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C5412BB1A9200823B28 /* TTGlobalCore.h */; };
+		66364CAC12BB1A9200823B28 /* TTGlobalCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C5512BB1A9200823B28 /* TTGlobalCore.m */; };
+		66364CAD12BB1A9200823B28 /* TTGlobalCoreLocale.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C5612BB1A9200823B28 /* TTGlobalCoreLocale.h */; };
+		66364CAE12BB1A9200823B28 /* TTGlobalCoreLocale.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C5712BB1A9200823B28 /* TTGlobalCoreLocale.m */; };
+		66364CAF12BB1A9200823B28 /* TTGlobalCorePaths.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C5812BB1A9200823B28 /* TTGlobalCorePaths.h */; };
+		66364CB012BB1A9200823B28 /* TTGlobalCorePaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C5912BB1A9200823B28 /* TTGlobalCorePaths.m */; };
+		66364CB112BB1A9200823B28 /* TTGlobalCoreRects.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C5A12BB1A9200823B28 /* TTGlobalCoreRects.h */; };
+		66364CB212BB1A9200823B28 /* TTGlobalCoreRects.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C5B12BB1A9200823B28 /* TTGlobalCoreRects.m */; };
+		66364CB312BB1A9200823B28 /* NSArrayAdditions.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C5D12BB1A9200823B28 /* NSArrayAdditions.h */; };
+		66364CB412BB1A9200823B28 /* NSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C5E12BB1A9200823B28 /* NSArrayAdditions.m */; };
+		66364CB512BB1A9200823B28 /* NSDataAdditions.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C5F12BB1A9200823B28 /* NSDataAdditions.h */; };
+		66364CB612BB1A9200823B28 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C6012BB1A9200823B28 /* NSDataAdditions.m */; };
+		66364CB712BB1A9200823B28 /* NSDateAdditions.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C6112BB1A9200823B28 /* NSDateAdditions.h */; };
+		66364CB812BB1A9200823B28 /* NSDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C6212BB1A9200823B28 /* NSDateAdditions.m */; };
+		66364CB912BB1A9200823B28 /* NSMutableArrayAdditions.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C6312BB1A9200823B28 /* NSMutableArrayAdditions.h */; };
+		66364CBA12BB1A9200823B28 /* NSMutableArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C6412BB1A9200823B28 /* NSMutableArrayAdditions.m */; };
+		66364CBB12BB1A9200823B28 /* NSMutableDictionaryAdditions.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C6512BB1A9200823B28 /* NSMutableDictionaryAdditions.h */; };
+		66364CBC12BB1A9200823B28 /* NSMutableDictionaryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C6612BB1A9200823B28 /* NSMutableDictionaryAdditions.m */; };
+		66364CBD12BB1A9200823B28 /* NSObjectAdditions.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C6712BB1A9200823B28 /* NSObjectAdditions.h */; };
+		66364CBE12BB1A9200823B28 /* NSObjectAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C6812BB1A9200823B28 /* NSObjectAdditions.m */; };
+		66364CBF12BB1A9200823B28 /* NSStringAdditions.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C6912BB1A9200823B28 /* NSStringAdditions.h */; };
+		66364CC012BB1A9200823B28 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C6A12BB1A9200823B28 /* NSStringAdditions.m */; };
+		66364CC112BB1A9200823B28 /* TTDebug.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C6C12BB1A9200823B28 /* TTDebug.h */; };
+		66364CC212BB1A9200823B28 /* TTDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C6D12BB1A9200823B28 /* TTDebug.m */; };
+		66364CC312BB1A9200823B28 /* TTExtensionLoader.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C6F12BB1A9200823B28 /* TTExtensionLoader.h */; };
+		66364CC412BB1A9200823B28 /* TTExtensionLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C7012BB1A9200823B28 /* TTExtensionLoader.m */; };
+		66364CC512BB1A9200823B28 /* TTExtensionInfo.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C7112BB1A9200823B28 /* TTExtensionInfo.h */; };
+		66364CC612BB1A9200823B28 /* TTExtensionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C7212BB1A9200823B28 /* TTExtensionInfo.m */; };
+		66364CC712BB1A9200823B28 /* TTExtensionInfoPrivate.h in Copy Core Private Headers */ = {isa = PBXBuildFile; fileRef = 66364C7412BB1A9200823B28 /* TTExtensionInfoPrivate.h */; };
+		66364CC812BB1A9200823B28 /* TTExtensionAuthor.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C7512BB1A9200823B28 /* TTExtensionAuthor.h */; };
+		66364CC912BB1A9200823B28 /* TTExtensionAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C7612BB1A9200823B28 /* TTExtensionAuthor.m */; };
+		66364CCA12BB1A9200823B28 /* TTEntityTables.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C7812BB1A9200823B28 /* TTEntityTables.h */; };
+		66364CCB12BB1A9200823B28 /* TTEntityTables.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C7912BB1A9200823B28 /* TTEntityTables.m */; };
+		66364CCC12BB1A9200823B28 /* TTMarkupStripper.h in Copy Core Headers */ = {isa = PBXBuildFile; fileRef = 66364C7C12BB1A9200823B28 /* TTMarkupStripper.h */; };
+		66364CCD12BB1A9200823B28 /* TTMarkupStripper.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364C7D12BB1A9200823B28 /* TTMarkupStripper.m */; };
+		66364D0012BB1AED00823B28 /* Three20Network.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CD812BB1AED00823B28 /* Three20Network.h */; };
+		66364D0112BB1AED00823B28 /* Three20Network_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 66364CD912BB1AED00823B28 /* Three20Network_Prefix.pch */; };
+		66364D0212BB1AED00823B28 /* TTGlobalNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CDC12BB1AED00823B28 /* TTGlobalNetwork.h */; };
+		66364D0312BB1AED00823B28 /* TTGlobalNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CDD12BB1AED00823B28 /* TTGlobalNetwork.m */; };
+		66364D0412BB1AED00823B28 /* TTUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CDE12BB1AED00823B28 /* TTUserInfo.h */; };
+		66364D0512BB1AED00823B28 /* TTUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CDF12BB1AED00823B28 /* TTUserInfo.m */; };
+		66364D0612BB1AED00823B28 /* TTErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CE012BB1AED00823B28 /* TTErrorCodes.h */; };
+		66364D0712BB1AED00823B28 /* TTErrorCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CE112BB1AED00823B28 /* TTErrorCodes.m */; };
+		66364D0812BB1AED00823B28 /* TTModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CE312BB1AED00823B28 /* TTModel.h */; };
+		66364D0912BB1AED00823B28 /* TTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CE412BB1AED00823B28 /* TTModel.m */; };
+		66364D0A12BB1AED00823B28 /* TTModelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CE512BB1AED00823B28 /* TTModelDelegate.h */; };
+		66364D0B12BB1AED00823B28 /* TTURLRequestModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CE712BB1AED00823B28 /* TTURLRequestModel.h */; };
+		66364D0C12BB1AED00823B28 /* TTURLRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CE812BB1AED00823B28 /* TTURLRequestModel.m */; };
+		66364D0D12BB1AED00823B28 /* TTURLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CEA12BB1AED00823B28 /* TTURLResponse.h */; };
+		66364D0E12BB1AED00823B28 /* TTURLDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CEC12BB1AED00823B28 /* TTURLDataResponse.h */; };
+		66364D0F12BB1AED00823B28 /* TTURLImageResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CED12BB1AED00823B28 /* TTURLImageResponse.h */; };
+		66364D1012BB1AED00823B28 /* TTURLDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CEE12BB1AED00823B28 /* TTURLDataResponse.m */; };
+		66364D1112BB1AED00823B28 /* TTURLImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CEF12BB1AED00823B28 /* TTURLImageResponse.m */; };
+		66364D1212BB1AED00823B28 /* TTURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CF112BB1AED00823B28 /* TTURLRequest.h */; };
+		66364D1312BB1AED00823B28 /* TTURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CF212BB1AED00823B28 /* TTURLRequest.m */; };
+		66364D1412BB1AED00823B28 /* TTRequestLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CF512BB1AED00823B28 /* TTRequestLoader.h */; };
+		66364D1512BB1AED00823B28 /* TTRequestLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CF612BB1AED00823B28 /* TTRequestLoader.m */; };
+		66364D1612BB1AED00823B28 /* TTURLRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CF712BB1AED00823B28 /* TTURLRequestDelegate.h */; };
+		66364D1712BB1AED00823B28 /* TTURLRequestCachePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CF812BB1AED00823B28 /* TTURLRequestCachePolicy.h */; };
+		66364D1812BB1AED00823B28 /* TTURLRequestQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CF912BB1AED00823B28 /* TTURLRequestQueue.h */; };
+		66364D1912BB1AED00823B28 /* TTURLRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CFA12BB1AED00823B28 /* TTURLRequestQueue.m */; };
+		66364D1A12BB1AED00823B28 /* TTURLRequestQueueInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CFC12BB1AED00823B28 /* TTURLRequestQueueInternal.h */; };
+		66364D1B12BB1AED00823B28 /* TTURLCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 66364CFE12BB1AED00823B28 /* TTURLCache.h */; };
+		66364D1C12BB1AED00823B28 /* TTURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CFF12BB1AED00823B28 /* TTURLCache.m */; };
+		66364D1D12BB1AED00823B28 /* Three20Network.h in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CD812BB1AED00823B28 /* Three20Network.h */; };
+		66364D1E12BB1AED00823B28 /* Three20Network_Prefix.pch in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CD912BB1AED00823B28 /* Three20Network_Prefix.pch */; };
+		66364D1F12BB1AED00823B28 /* TTGlobalNetwork.h in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CDC12BB1AED00823B28 /* TTGlobalNetwork.h */; };
+		66364D2012BB1AED00823B28 /* TTGlobalNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CDD12BB1AED00823B28 /* TTGlobalNetwork.m */; };
+		66364D2112BB1AED00823B28 /* TTUserInfo.h in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CDE12BB1AED00823B28 /* TTUserInfo.h */; };
+		66364D2212BB1AED00823B28 /* TTUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CDF12BB1AED00823B28 /* TTUserInfo.m */; };
+		66364D2312BB1AED00823B28 /* TTErrorCodes.h in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CE012BB1AED00823B28 /* TTErrorCodes.h */; };
+		66364D2412BB1AED00823B28 /* TTErrorCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CE112BB1AED00823B28 /* TTErrorCodes.m */; };
+		66364D2512BB1AED00823B28 /* TTModel.h in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CE312BB1AED00823B28 /* TTModel.h */; };
+		66364D2612BB1AED00823B28 /* TTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CE412BB1AED00823B28 /* TTModel.m */; };
+		66364D2712BB1AED00823B28 /* TTModelDelegate.h in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CE512BB1AED00823B28 /* TTModelDelegate.h */; };
+		66364D2812BB1AED00823B28 /* TTURLRequestModel.h in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CE712BB1AED00823B28 /* TTURLRequestModel.h */; };
+		66364D2912BB1AED00823B28 /* TTURLRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CE812BB1AED00823B28 /* TTURLRequestModel.m */; };
+		66364D2A12BB1AED00823B28 /* TTURLResponse.h in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CEA12BB1AED00823B28 /* TTURLResponse.h */; };
+		66364D2B12BB1AED00823B28 /* TTURLDataResponse.h in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CEC12BB1AED00823B28 /* TTURLDataResponse.h */; };
+		66364D2C12BB1AED00823B28 /* TTURLImageResponse.h in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CED12BB1AED00823B28 /* TTURLImageResponse.h */; };
+		66364D2D12BB1AED00823B28 /* TTURLDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CEE12BB1AED00823B28 /* TTURLDataResponse.m */; };
+		66364D2E12BB1AED00823B28 /* TTURLImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CEF12BB1AED00823B28 /* TTURLImageResponse.m */; };
+		66364D2F12BB1AED00823B28 /* TTURLRequest.h in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CF112BB1AED00823B28 /* TTURLRequest.h */; };
+		66364D3012BB1AED00823B28 /* TTURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CF212BB1AED00823B28 /* TTURLRequest.m */; };
+		66364D3112BB1AED00823B28 /* TTRequestLoader.h in Copy Network Private Headers */ = {isa = PBXBuildFile; fileRef = 66364CF512BB1AED00823B28 /* TTRequestLoader.h */; };
+		66364D3212BB1AED00823B28 /* TTRequestLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CF612BB1AED00823B28 /* TTRequestLoader.m */; };
+		66364D3312BB1AED00823B28 /* TTURLRequestDelegate.h in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CF712BB1AED00823B28 /* TTURLRequestDelegate.h */; };
+		66364D3412BB1AED00823B28 /* TTURLRequestCachePolicy.h in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CF812BB1AED00823B28 /* TTURLRequestCachePolicy.h */; };
+		66364D3512BB1AED00823B28 /* TTURLRequestQueue.h in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CF912BB1AED00823B28 /* TTURLRequestQueue.h */; };
+		66364D3612BB1AED00823B28 /* TTURLRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CFA12BB1AED00823B28 /* TTURLRequestQueue.m */; };
+		66364D3712BB1AED00823B28 /* TTURLRequestQueueInternal.h in Copy Network Private Headers */ = {isa = PBXBuildFile; fileRef = 66364CFC12BB1AED00823B28 /* TTURLRequestQueueInternal.h */; };
+		66364D3812BB1AED00823B28 /* TTURLCache.h in Copy Network Headers */ = {isa = PBXBuildFile; fileRef = 66364CFE12BB1AED00823B28 /* TTURLCache.h */; };
+		66364D3912BB1AED00823B28 /* TTURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 66364CFF12BB1AED00823B28 /* TTURLCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		66364C4712BB1A5C00823B28 /* Copy Core Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../three20/Three20Core;
+			dstSubfolderSpec = 16;
+			files = (
+				66364CA612BB1A9200823B28 /* Three20Core.h in Copy Core Headers */,
+				66364CA712BB1A9200823B28 /* Three20Core+Additions.h in Copy Core Headers */,
+				66364CA812BB1A9200823B28 /* Three20Core_Prefix.pch in Copy Core Headers */,
+				66364CA912BB1A9200823B28 /* TTDebugFlags.h in Copy Core Headers */,
+				66364CAA12BB1A9200823B28 /* TTCorePreprocessorMacros.h in Copy Core Headers */,
+				66364CAB12BB1A9200823B28 /* TTGlobalCore.h in Copy Core Headers */,
+				66364CAD12BB1A9200823B28 /* TTGlobalCoreLocale.h in Copy Core Headers */,
+				66364CAF12BB1A9200823B28 /* TTGlobalCorePaths.h in Copy Core Headers */,
+				66364CB112BB1A9200823B28 /* TTGlobalCoreRects.h in Copy Core Headers */,
+				66364CB312BB1A9200823B28 /* NSArrayAdditions.h in Copy Core Headers */,
+				66364CB512BB1A9200823B28 /* NSDataAdditions.h in Copy Core Headers */,
+				66364CB712BB1A9200823B28 /* NSDateAdditions.h in Copy Core Headers */,
+				66364CB912BB1A9200823B28 /* NSMutableArrayAdditions.h in Copy Core Headers */,
+				66364CBB12BB1A9200823B28 /* NSMutableDictionaryAdditions.h in Copy Core Headers */,
+				66364CBD12BB1A9200823B28 /* NSObjectAdditions.h in Copy Core Headers */,
+				66364CBF12BB1A9200823B28 /* NSStringAdditions.h in Copy Core Headers */,
+				66364CC112BB1A9200823B28 /* TTDebug.h in Copy Core Headers */,
+				66364CC312BB1A9200823B28 /* TTExtensionLoader.h in Copy Core Headers */,
+				66364CC512BB1A9200823B28 /* TTExtensionInfo.h in Copy Core Headers */,
+				66364CC812BB1A9200823B28 /* TTExtensionAuthor.h in Copy Core Headers */,
+				66364CCA12BB1A9200823B28 /* TTEntityTables.h in Copy Core Headers */,
+				66364CCC12BB1A9200823B28 /* TTMarkupStripper.h in Copy Core Headers */,
+			);
+			name = "Copy Core Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66364CD612BB1ADE00823B28 /* Copy Network Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../three20/Three20Network;
+			dstSubfolderSpec = 16;
+			files = (
+				66364D1D12BB1AED00823B28 /* Three20Network.h in Copy Network Headers */,
+				66364D1E12BB1AED00823B28 /* Three20Network_Prefix.pch in Copy Network Headers */,
+				66364D1F12BB1AED00823B28 /* TTGlobalNetwork.h in Copy Network Headers */,
+				66364D2112BB1AED00823B28 /* TTUserInfo.h in Copy Network Headers */,
+				66364D2312BB1AED00823B28 /* TTErrorCodes.h in Copy Network Headers */,
+				66364D2512BB1AED00823B28 /* TTModel.h in Copy Network Headers */,
+				66364D2712BB1AED00823B28 /* TTModelDelegate.h in Copy Network Headers */,
+				66364D2812BB1AED00823B28 /* TTURLRequestModel.h in Copy Network Headers */,
+				66364D2A12BB1AED00823B28 /* TTURLResponse.h in Copy Network Headers */,
+				66364D2B12BB1AED00823B28 /* TTURLDataResponse.h in Copy Network Headers */,
+				66364D2C12BB1AED00823B28 /* TTURLImageResponse.h in Copy Network Headers */,
+				66364D2F12BB1AED00823B28 /* TTURLRequest.h in Copy Network Headers */,
+				66364D3312BB1AED00823B28 /* TTURLRequestDelegate.h in Copy Network Headers */,
+				66364D3412BB1AED00823B28 /* TTURLRequestCachePolicy.h in Copy Network Headers */,
+				66364D3512BB1AED00823B28 /* TTURLRequestQueue.h in Copy Network Headers */,
+				66364D3812BB1AED00823B28 /* TTURLCache.h in Copy Network Headers */,
+			);
+			name = "Copy Network Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66364D5A12BB1C5D00823B28 /* Copy Core Private Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../three20/Three20Core/private;
+			dstSubfolderSpec = 16;
+			files = (
+				66364CC712BB1A9200823B28 /* TTExtensionInfoPrivate.h in Copy Core Private Headers */,
+			);
+			name = "Copy Core Private Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66364D5B12BB1C5D00823B28 /* Copy Network Private Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../three20/Three20Network/private;
+			dstSubfolderSpec = 16;
+			files = (
+				66364D3712BB1AED00823B28 /* TTURLRequestQueueInternal.h in Copy Network Private Headers */,
+				66364D3112BB1AED00823B28 /* TTRequestLoader.h in Copy Network Private Headers */,
+			);
+			name = "Copy Network Private Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		66364C4C12BB1A9200823B28 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.mdown; path = ../Three20Core/README.mdown; sourceTree = SOURCE_ROOT; };
+		66364C4D12BB1A9200823B28 /* Three20Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Three20Core.h; path = ../Three20Core/Headers/Three20Core.h; sourceTree = SOURCE_ROOT; };
+		66364C4E12BB1A9200823B28 /* Three20Core+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Three20Core+Additions.h"; path = "../Three20Core/Headers/Three20Core+Additions.h"; sourceTree = SOURCE_ROOT; };
+		66364C4F12BB1A9200823B28 /* Three20Core_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Three20Core_Prefix.pch; path = ../Three20Core/Headers/Three20Core_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		66364C5012BB1A9200823B28 /* TTDebugFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTDebugFlags.h; path = ../Three20Core/Headers/TTDebugFlags.h; sourceTree = SOURCE_ROOT; };
+		66364C5312BB1A9200823B28 /* TTCorePreprocessorMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTCorePreprocessorMacros.h; path = ../Three20Core/Headers/TTCorePreprocessorMacros.h; sourceTree = SOURCE_ROOT; };
+		66364C5412BB1A9200823B28 /* TTGlobalCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTGlobalCore.h; path = ../Three20Core/Headers/TTGlobalCore.h; sourceTree = SOURCE_ROOT; };
+		66364C5512BB1A9200823B28 /* TTGlobalCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTGlobalCore.m; path = ../Three20Core/Sources/TTGlobalCore.m; sourceTree = SOURCE_ROOT; };
+		66364C5612BB1A9200823B28 /* TTGlobalCoreLocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTGlobalCoreLocale.h; path = ../Three20Core/Headers/TTGlobalCoreLocale.h; sourceTree = SOURCE_ROOT; };
+		66364C5712BB1A9200823B28 /* TTGlobalCoreLocale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTGlobalCoreLocale.m; path = ../Three20Core/Sources/TTGlobalCoreLocale.m; sourceTree = SOURCE_ROOT; };
+		66364C5812BB1A9200823B28 /* TTGlobalCorePaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTGlobalCorePaths.h; path = ../Three20Core/Headers/TTGlobalCorePaths.h; sourceTree = SOURCE_ROOT; };
+		66364C5912BB1A9200823B28 /* TTGlobalCorePaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTGlobalCorePaths.m; path = ../Three20Core/Sources/TTGlobalCorePaths.m; sourceTree = SOURCE_ROOT; };
+		66364C5A12BB1A9200823B28 /* TTGlobalCoreRects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTGlobalCoreRects.h; path = ../Three20Core/Headers/TTGlobalCoreRects.h; sourceTree = SOURCE_ROOT; };
+		66364C5B12BB1A9200823B28 /* TTGlobalCoreRects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTGlobalCoreRects.m; path = ../Three20Core/Sources/TTGlobalCoreRects.m; sourceTree = SOURCE_ROOT; };
+		66364C5D12BB1A9200823B28 /* NSArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSArrayAdditions.h; path = ../Three20Core/Headers/NSArrayAdditions.h; sourceTree = SOURCE_ROOT; };
+		66364C5E12BB1A9200823B28 /* NSArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSArrayAdditions.m; path = ../Three20Core/Sources/NSArrayAdditions.m; sourceTree = SOURCE_ROOT; };
+		66364C5F12BB1A9200823B28 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDataAdditions.h; path = ../Three20Core/Headers/NSDataAdditions.h; sourceTree = SOURCE_ROOT; };
+		66364C6012BB1A9200823B28 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDataAdditions.m; path = ../Three20Core/Sources/NSDataAdditions.m; sourceTree = SOURCE_ROOT; };
+		66364C6112BB1A9200823B28 /* NSDateAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDateAdditions.h; path = ../Three20Core/Headers/NSDateAdditions.h; sourceTree = SOURCE_ROOT; };
+		66364C6212BB1A9200823B28 /* NSDateAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDateAdditions.m; path = ../Three20Core/Sources/NSDateAdditions.m; sourceTree = SOURCE_ROOT; };
+		66364C6312BB1A9200823B28 /* NSMutableArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSMutableArrayAdditions.h; path = ../Three20Core/Headers/NSMutableArrayAdditions.h; sourceTree = SOURCE_ROOT; };
+		66364C6412BB1A9200823B28 /* NSMutableArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMutableArrayAdditions.m; path = ../Three20Core/Sources/NSMutableArrayAdditions.m; sourceTree = SOURCE_ROOT; };
+		66364C6512BB1A9200823B28 /* NSMutableDictionaryAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSMutableDictionaryAdditions.h; path = ../Three20Core/Headers/NSMutableDictionaryAdditions.h; sourceTree = SOURCE_ROOT; };
+		66364C6612BB1A9200823B28 /* NSMutableDictionaryAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMutableDictionaryAdditions.m; path = ../Three20Core/Sources/NSMutableDictionaryAdditions.m; sourceTree = SOURCE_ROOT; };
+		66364C6712BB1A9200823B28 /* NSObjectAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSObjectAdditions.h; path = ../Three20Core/Headers/NSObjectAdditions.h; sourceTree = SOURCE_ROOT; };
+		66364C6812BB1A9200823B28 /* NSObjectAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSObjectAdditions.m; path = ../Three20Core/Sources/NSObjectAdditions.m; sourceTree = SOURCE_ROOT; };
+		66364C6912BB1A9200823B28 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSStringAdditions.h; path = ../Three20Core/Headers/NSStringAdditions.h; sourceTree = SOURCE_ROOT; };
+		66364C6A12BB1A9200823B28 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSStringAdditions.m; path = ../Three20Core/Sources/NSStringAdditions.m; sourceTree = SOURCE_ROOT; };
+		66364C6C12BB1A9200823B28 /* TTDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTDebug.h; path = ../Three20Core/Headers/TTDebug.h; sourceTree = SOURCE_ROOT; };
+		66364C6D12BB1A9200823B28 /* TTDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTDebug.m; path = ../Three20Core/Sources/TTDebug.m; sourceTree = SOURCE_ROOT; };
+		66364C6F12BB1A9200823B28 /* TTExtensionLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTExtensionLoader.h; path = ../Three20Core/Headers/TTExtensionLoader.h; sourceTree = SOURCE_ROOT; };
+		66364C7012BB1A9200823B28 /* TTExtensionLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTExtensionLoader.m; path = ../Three20Core/Sources/TTExtensionLoader.m; sourceTree = SOURCE_ROOT; };
+		66364C7112BB1A9200823B28 /* TTExtensionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTExtensionInfo.h; path = ../Three20Core/Headers/TTExtensionInfo.h; sourceTree = SOURCE_ROOT; };
+		66364C7212BB1A9200823B28 /* TTExtensionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTExtensionInfo.m; path = ../Three20Core/Sources/TTExtensionInfo.m; sourceTree = SOURCE_ROOT; };
+		66364C7412BB1A9200823B28 /* TTExtensionInfoPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTExtensionInfoPrivate.h; path = ../Three20Core/Headers/TTExtensionInfoPrivate.h; sourceTree = SOURCE_ROOT; };
+		66364C7512BB1A9200823B28 /* TTExtensionAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTExtensionAuthor.h; path = ../Three20Core/Headers/TTExtensionAuthor.h; sourceTree = SOURCE_ROOT; };
+		66364C7612BB1A9200823B28 /* TTExtensionAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTExtensionAuthor.m; path = ../Three20Core/Sources/TTExtensionAuthor.m; sourceTree = SOURCE_ROOT; };
+		66364C7812BB1A9200823B28 /* TTEntityTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTEntityTables.h; path = ../Three20Core/Headers/TTEntityTables.h; sourceTree = SOURCE_ROOT; };
+		66364C7912BB1A9200823B28 /* TTEntityTables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTEntityTables.m; path = ../Three20Core/Sources/TTEntityTables.m; sourceTree = SOURCE_ROOT; };
+		66364C7C12BB1A9200823B28 /* TTMarkupStripper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTMarkupStripper.h; path = ../Three20Core/Headers/TTMarkupStripper.h; sourceTree = SOURCE_ROOT; };
+		66364C7D12BB1A9200823B28 /* TTMarkupStripper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTMarkupStripper.m; path = ../Three20Core/Sources/TTMarkupStripper.m; sourceTree = SOURCE_ROOT; };
+		66364CD812BB1AED00823B28 /* Three20Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Three20Network.h; path = ../Three20Network/Headers/Three20Network.h; sourceTree = SOURCE_ROOT; };
+		66364CD912BB1AED00823B28 /* Three20Network_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Three20Network_Prefix.pch; path = ../Three20Network/Headers/Three20Network_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		66364CDC12BB1AED00823B28 /* TTGlobalNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTGlobalNetwork.h; path = ../Three20Network/Headers/TTGlobalNetwork.h; sourceTree = SOURCE_ROOT; };
+		66364CDD12BB1AED00823B28 /* TTGlobalNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTGlobalNetwork.m; path = ../Three20Network/Sources/TTGlobalNetwork.m; sourceTree = SOURCE_ROOT; };
+		66364CDE12BB1AED00823B28 /* TTUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTUserInfo.h; path = ../Three20Network/Headers/TTUserInfo.h; sourceTree = SOURCE_ROOT; };
+		66364CDF12BB1AED00823B28 /* TTUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTUserInfo.m; path = ../Three20Network/Sources/TTUserInfo.m; sourceTree = SOURCE_ROOT; };
+		66364CE012BB1AED00823B28 /* TTErrorCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTErrorCodes.h; path = ../Three20Network/Headers/TTErrorCodes.h; sourceTree = SOURCE_ROOT; };
+		66364CE112BB1AED00823B28 /* TTErrorCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTErrorCodes.m; path = ../Three20Network/Sources/TTErrorCodes.m; sourceTree = SOURCE_ROOT; };
+		66364CE312BB1AED00823B28 /* TTModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTModel.h; path = ../Three20Network/Headers/TTModel.h; sourceTree = SOURCE_ROOT; };
+		66364CE412BB1AED00823B28 /* TTModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTModel.m; path = ../Three20Network/Sources/TTModel.m; sourceTree = SOURCE_ROOT; };
+		66364CE512BB1AED00823B28 /* TTModelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTModelDelegate.h; path = ../Three20Network/Headers/TTModelDelegate.h; sourceTree = SOURCE_ROOT; };
+		66364CE712BB1AED00823B28 /* TTURLRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTURLRequestModel.h; path = ../Three20Network/Headers/TTURLRequestModel.h; sourceTree = SOURCE_ROOT; };
+		66364CE812BB1AED00823B28 /* TTURLRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTURLRequestModel.m; path = ../Three20Network/Sources/TTURLRequestModel.m; sourceTree = SOURCE_ROOT; };
+		66364CEA12BB1AED00823B28 /* TTURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTURLResponse.h; path = ../Three20Network/Headers/TTURLResponse.h; sourceTree = SOURCE_ROOT; };
+		66364CEC12BB1AED00823B28 /* TTURLDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTURLDataResponse.h; path = ../Three20Network/Headers/TTURLDataResponse.h; sourceTree = SOURCE_ROOT; };
+		66364CED12BB1AED00823B28 /* TTURLImageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTURLImageResponse.h; path = ../Three20Network/Headers/TTURLImageResponse.h; sourceTree = SOURCE_ROOT; };
+		66364CEE12BB1AED00823B28 /* TTURLDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTURLDataResponse.m; path = ../Three20Network/Sources/TTURLDataResponse.m; sourceTree = SOURCE_ROOT; };
+		66364CEF12BB1AED00823B28 /* TTURLImageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTURLImageResponse.m; path = ../Three20Network/Sources/TTURLImageResponse.m; sourceTree = SOURCE_ROOT; };
+		66364CF112BB1AED00823B28 /* TTURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTURLRequest.h; path = ../Three20Network/Headers/TTURLRequest.h; sourceTree = SOURCE_ROOT; };
+		66364CF212BB1AED00823B28 /* TTURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTURLRequest.m; path = ../Three20Network/Sources/TTURLRequest.m; sourceTree = SOURCE_ROOT; };
+		66364CF512BB1AED00823B28 /* TTRequestLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTRequestLoader.h; path = ../Three20Network/Headers/TTRequestLoader.h; sourceTree = SOURCE_ROOT; };
+		66364CF612BB1AED00823B28 /* TTRequestLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTRequestLoader.m; path = ../Three20Network/Sources/TTRequestLoader.m; sourceTree = SOURCE_ROOT; };
+		66364CF712BB1AED00823B28 /* TTURLRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTURLRequestDelegate.h; path = ../Three20Network/Headers/TTURLRequestDelegate.h; sourceTree = SOURCE_ROOT; };
+		66364CF812BB1AED00823B28 /* TTURLRequestCachePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTURLRequestCachePolicy.h; path = ../Three20Network/Headers/TTURLRequestCachePolicy.h; sourceTree = SOURCE_ROOT; };
+		66364CF912BB1AED00823B28 /* TTURLRequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTURLRequestQueue.h; path = ../Three20Network/Headers/TTURLRequestQueue.h; sourceTree = SOURCE_ROOT; };
+		66364CFA12BB1AED00823B28 /* TTURLRequestQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTURLRequestQueue.m; path = ../Three20Network/Sources/TTURLRequestQueue.m; sourceTree = SOURCE_ROOT; };
+		66364CFC12BB1AED00823B28 /* TTURLRequestQueueInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTURLRequestQueueInternal.h; path = ../Three20Network/Headers/TTURLRequestQueueInternal.h; sourceTree = SOURCE_ROOT; };
+		66364CFE12BB1AED00823B28 /* TTURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTURLCache.h; path = ../Three20Network/Headers/TTURLCache.h; sourceTree = SOURCE_ROOT; };
+		66364CFF12BB1AED00823B28 /* TTURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTURLCache.m; path = ../Three20Network/Sources/TTURLCache.m; sourceTree = SOURCE_ROOT; };
+		665A55DE126521740032D0BE /* libThree20Unity-Xcode3.2.5.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libThree20Unity-Xcode3.2.5.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E64543D1184BE1B00F08CB1 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = Configurations/Project.xcconfig; sourceTree = "<group>"; };
+		6EE7364B11849B3D00A35176 /* Library.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Library.xcconfig; path = Configurations/Library.xcconfig; sourceTree = "<group>"; };
+		6EE7364C11849B3D00A35176 /* UnitTests.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = UnitTests.xcconfig; path = Configurations/UnitTests.xcconfig; sourceTree = "<group>"; };
+		BEF31F3A0F352DF5000DE5D2 /* libThree20Unity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libThree20Unity.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665A55D9126521740032D0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF31F380F352DF5000DE5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF31F3A0F352DF5000DE5D2 /* libThree20Unity.a */,
+				665A55DE126521740032D0BE /* libThree20Unity-Xcode3.2.5.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				6636499012BB162F00823B28 /* Core */,
+				66364A2C12BB169F00823B28 /* Network */,
+				6EE7364D11849B4200A35176 /* Configurations */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		6636499012BB162F00823B28 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				66364C5112BB1A9200823B28 /* Source */,
+				66364C4C12BB1A9200823B28 /* README.mdown */,
+				66364C4D12BB1A9200823B28 /* Three20Core.h */,
+				66364C4E12BB1A9200823B28 /* Three20Core+Additions.h */,
+				66364C4F12BB1A9200823B28 /* Three20Core_Prefix.pch */,
+				66364C5012BB1A9200823B28 /* TTDebugFlags.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		66364A2C12BB169F00823B28 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				66364CDA12BB1AED00823B28 /* Source */,
+				66364CD812BB1AED00823B28 /* Three20Network.h */,
+				66364CD912BB1AED00823B28 /* Three20Network_Prefix.pch */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		66364C5112BB1A9200823B28 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				66364C7A12BB1A9200823B28 /* Classes */,
+				66364C7712BB1A9200823B28 /* Entity Tables */,
+				66364C6E12BB1A9200823B28 /* Extensions */,
+				66364C6B12BB1A9200823B28 /* Debug */,
+				66364C5C12BB1A9200823B28 /* Additions */,
+				66364C5212BB1A9200823B28 /* Global */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		66364C5212BB1A9200823B28 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				66364C5312BB1A9200823B28 /* TTCorePreprocessorMacros.h */,
+				66364C5412BB1A9200823B28 /* TTGlobalCore.h */,
+				66364C5512BB1A9200823B28 /* TTGlobalCore.m */,
+				66364C5612BB1A9200823B28 /* TTGlobalCoreLocale.h */,
+				66364C5712BB1A9200823B28 /* TTGlobalCoreLocale.m */,
+				66364C5812BB1A9200823B28 /* TTGlobalCorePaths.h */,
+				66364C5912BB1A9200823B28 /* TTGlobalCorePaths.m */,
+				66364C5A12BB1A9200823B28 /* TTGlobalCoreRects.h */,
+				66364C5B12BB1A9200823B28 /* TTGlobalCoreRects.m */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		66364C5C12BB1A9200823B28 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				66364C5D12BB1A9200823B28 /* NSArrayAdditions.h */,
+				66364C5E12BB1A9200823B28 /* NSArrayAdditions.m */,
+				66364C5F12BB1A9200823B28 /* NSDataAdditions.h */,
+				66364C6012BB1A9200823B28 /* NSDataAdditions.m */,
+				66364C6112BB1A9200823B28 /* NSDateAdditions.h */,
+				66364C6212BB1A9200823B28 /* NSDateAdditions.m */,
+				66364C6312BB1A9200823B28 /* NSMutableArrayAdditions.h */,
+				66364C6412BB1A9200823B28 /* NSMutableArrayAdditions.m */,
+				66364C6512BB1A9200823B28 /* NSMutableDictionaryAdditions.h */,
+				66364C6612BB1A9200823B28 /* NSMutableDictionaryAdditions.m */,
+				66364C6712BB1A9200823B28 /* NSObjectAdditions.h */,
+				66364C6812BB1A9200823B28 /* NSObjectAdditions.m */,
+				66364C6912BB1A9200823B28 /* NSStringAdditions.h */,
+				66364C6A12BB1A9200823B28 /* NSStringAdditions.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		66364C6B12BB1A9200823B28 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				66364C6C12BB1A9200823B28 /* TTDebug.h */,
+				66364C6D12BB1A9200823B28 /* TTDebug.m */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		66364C6E12BB1A9200823B28 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				66364C7312BB1A9200823B28 /* Private */,
+				66364C6F12BB1A9200823B28 /* TTExtensionLoader.h */,
+				66364C7012BB1A9200823B28 /* TTExtensionLoader.m */,
+				66364C7112BB1A9200823B28 /* TTExtensionInfo.h */,
+				66364C7512BB1A9200823B28 /* TTExtensionAuthor.h */,
+				66364C7612BB1A9200823B28 /* TTExtensionAuthor.m */,
+				66364C7212BB1A9200823B28 /* TTExtensionInfo.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		66364C7312BB1A9200823B28 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				66364C7412BB1A9200823B28 /* TTExtensionInfoPrivate.h */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		66364C7712BB1A9200823B28 /* Entity Tables */ = {
+			isa = PBXGroup;
+			children = (
+				66364C7812BB1A9200823B28 /* TTEntityTables.h */,
+				66364C7912BB1A9200823B28 /* TTEntityTables.m */,
+			);
+			name = "Entity Tables";
+			sourceTree = "<group>";
+		};
+		66364C7A12BB1A9200823B28 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				66364C7B12BB1A9200823B28 /* Markup Stripper */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		66364C7B12BB1A9200823B28 /* Markup Stripper */ = {
+			isa = PBXGroup;
+			children = (
+				66364C7C12BB1A9200823B28 /* TTMarkupStripper.h */,
+				66364C7D12BB1A9200823B28 /* TTMarkupStripper.m */,
+			);
+			name = "Markup Stripper";
+			sourceTree = "<group>";
+		};
+		66364CDA12BB1AED00823B28 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				66364CFD12BB1AED00823B28 /* Cache */,
+				66364CF012BB1AED00823B28 /* Request */,
+				66364CE912BB1AED00823B28 /* Response */,
+				66364CE212BB1AED00823B28 /* Model */,
+				66364CDE12BB1AED00823B28 /* TTUserInfo.h */,
+				66364CDF12BB1AED00823B28 /* TTUserInfo.m */,
+				66364CE012BB1AED00823B28 /* TTErrorCodes.h */,
+				66364CE112BB1AED00823B28 /* TTErrorCodes.m */,
+				66364CDB12BB1AED00823B28 /* Global */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		66364CDB12BB1AED00823B28 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				66364CDC12BB1AED00823B28 /* TTGlobalNetwork.h */,
+				66364CDD12BB1AED00823B28 /* TTGlobalNetwork.m */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		66364CE212BB1AED00823B28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66364CE612BB1AED00823B28 /* Models */,
+				66364CE312BB1AED00823B28 /* TTModel.h */,
+				66364CE412BB1AED00823B28 /* TTModel.m */,
+				66364CE512BB1AED00823B28 /* TTModelDelegate.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		66364CE612BB1AED00823B28 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66364CE712BB1AED00823B28 /* TTURLRequestModel.h */,
+				66364CE812BB1AED00823B28 /* TTURLRequestModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		66364CE912BB1AED00823B28 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				66364CEB12BB1AED00823B28 /* Responses */,
+				66364CEA12BB1AED00823B28 /* TTURLResponse.h */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+		66364CEB12BB1AED00823B28 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				66364CEC12BB1AED00823B28 /* TTURLDataResponse.h */,
+				66364CED12BB1AED00823B28 /* TTURLImageResponse.h */,
+				66364CEE12BB1AED00823B28 /* TTURLDataResponse.m */,
+				66364CEF12BB1AED00823B28 /* TTURLImageResponse.m */,
+			);
+			name = Responses;
+			sourceTree = "<group>";
+		};
+		66364CF012BB1AED00823B28 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				66364CF312BB1AED00823B28 /* Requests */,
+				66364CF112BB1AED00823B28 /* TTURLRequest.h */,
+				66364CF212BB1AED00823B28 /* TTURLRequest.m */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		66364CF312BB1AED00823B28 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				66364CFB12BB1AED00823B28 /* Private */,
+				66364CF712BB1AED00823B28 /* TTURLRequestDelegate.h */,
+				66364CF812BB1AED00823B28 /* TTURLRequestCachePolicy.h */,
+				66364CF912BB1AED00823B28 /* TTURLRequestQueue.h */,
+				66364CFA12BB1AED00823B28 /* TTURLRequestQueue.m */,
+				66364CF412BB1AED00823B28 /* Private */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		66364CF412BB1AED00823B28 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				66364CF512BB1AED00823B28 /* TTRequestLoader.h */,
+				66364CF612BB1AED00823B28 /* TTRequestLoader.m */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		66364CFB12BB1AED00823B28 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				66364CFC12BB1AED00823B28 /* TTURLRequestQueueInternal.h */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		66364CFD12BB1AED00823B28 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				66364CFE12BB1AED00823B28 /* TTURLCache.h */,
+				66364CFF12BB1AED00823B28 /* TTURLCache.m */,
+			);
+			name = Cache;
+			sourceTree = "<group>";
+		};
+		6EE7364D11849B4200A35176 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				6EE7364B11849B3D00A35176 /* Library.xcconfig */,
+				6E64543D1184BE1B00F08CB1 /* Project.xcconfig */,
+				6EE7364C11849B3D00A35176 /* UnitTests.xcconfig */,
+			);
+			name = Configurations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66364CD712BB1ADE00823B28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF31F360F352DF5000DE5D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66364C7E12BB1A9200823B28 /* Three20Core.h in Headers */,
+				66364C7F12BB1A9200823B28 /* Three20Core+Additions.h in Headers */,
+				66364C8012BB1A9200823B28 /* Three20Core_Prefix.pch in Headers */,
+				66364C8112BB1A9200823B28 /* TTDebugFlags.h in Headers */,
+				66364C8212BB1A9200823B28 /* TTCorePreprocessorMacros.h in Headers */,
+				66364C8312BB1A9200823B28 /* TTGlobalCore.h in Headers */,
+				66364C8512BB1A9200823B28 /* TTGlobalCoreLocale.h in Headers */,
+				66364C8712BB1A9200823B28 /* TTGlobalCorePaths.h in Headers */,
+				66364C8912BB1A9200823B28 /* TTGlobalCoreRects.h in Headers */,
+				66364C8B12BB1A9200823B28 /* NSArrayAdditions.h in Headers */,
+				66364C8D12BB1A9200823B28 /* NSDataAdditions.h in Headers */,
+				66364C8F12BB1A9200823B28 /* NSDateAdditions.h in Headers */,
+				66364C9112BB1A9200823B28 /* NSMutableArrayAdditions.h in Headers */,
+				66364C9312BB1A9200823B28 /* NSMutableDictionaryAdditions.h in Headers */,
+				66364C9512BB1A9200823B28 /* NSObjectAdditions.h in Headers */,
+				66364C9712BB1A9200823B28 /* NSStringAdditions.h in Headers */,
+				66364C9912BB1A9200823B28 /* TTDebug.h in Headers */,
+				66364C9B12BB1A9200823B28 /* TTExtensionLoader.h in Headers */,
+				66364C9D12BB1A9200823B28 /* TTExtensionInfo.h in Headers */,
+				66364C9F12BB1A9200823B28 /* TTExtensionInfoPrivate.h in Headers */,
+				66364CA012BB1A9200823B28 /* TTExtensionAuthor.h in Headers */,
+				66364CA212BB1A9200823B28 /* TTEntityTables.h in Headers */,
+				66364CA412BB1A9200823B28 /* TTMarkupStripper.h in Headers */,
+				66364D0012BB1AED00823B28 /* Three20Network.h in Headers */,
+				66364D0112BB1AED00823B28 /* Three20Network_Prefix.pch in Headers */,
+				66364D0212BB1AED00823B28 /* TTGlobalNetwork.h in Headers */,
+				66364D0412BB1AED00823B28 /* TTUserInfo.h in Headers */,
+				66364D0612BB1AED00823B28 /* TTErrorCodes.h in Headers */,
+				66364D0812BB1AED00823B28 /* TTModel.h in Headers */,
+				66364D0A12BB1AED00823B28 /* TTModelDelegate.h in Headers */,
+				66364D0B12BB1AED00823B28 /* TTURLRequestModel.h in Headers */,
+				66364D0D12BB1AED00823B28 /* TTURLResponse.h in Headers */,
+				66364D0E12BB1AED00823B28 /* TTURLDataResponse.h in Headers */,
+				66364D0F12BB1AED00823B28 /* TTURLImageResponse.h in Headers */,
+				66364D1212BB1AED00823B28 /* TTURLRequest.h in Headers */,
+				66364D1412BB1AED00823B28 /* TTRequestLoader.h in Headers */,
+				66364D1612BB1AED00823B28 /* TTURLRequestDelegate.h in Headers */,
+				66364D1712BB1AED00823B28 /* TTURLRequestCachePolicy.h in Headers */,
+				66364D1812BB1AED00823B28 /* TTURLRequestQueue.h in Headers */,
+				66364D1A12BB1AED00823B28 /* TTURLRequestQueueInternal.h in Headers */,
+				66364D1B12BB1AED00823B28 /* TTURLCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		665A55C6126521740032D0BE /* Three20Unity-Xcode3.2.5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665A55DA126521740032D0BE /* Build configuration list for PBXNativeTarget "Three20Unity-Xcode3.2.5" */;
+			buildPhases = (
+				66364C4712BB1A5C00823B28 /* Copy Core Headers */,
+				66364D5A12BB1C5D00823B28 /* Copy Core Private Headers */,
+				66364CD612BB1ADE00823B28 /* Copy Network Headers */,
+				66364D5B12BB1C5D00823B28 /* Copy Network Private Headers */,
+				665A55D7126521740032D0BE /* Sources */,
+				665A55D9126521740032D0BE /* Frameworks */,
+				66364CD712BB1ADE00823B28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Three20Unity-Xcode3.2.5";
+			productName = Three20;
+			productReference = 665A55DE126521740032D0BE /* libThree20Unity-Xcode3.2.5.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BEF31F390F352DF5000DE5D2 /* Three20Unity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF31F410F352E14000DE5D2 /* Build configuration list for PBXNativeTarget "Three20Unity" */;
+			buildPhases = (
+				BEF31F360F352DF5000DE5D2 /* Headers */,
+				BEF31F370F352DF5000DE5D2 /* Sources */,
+				BEF31F380F352DF5000DE5D2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Three20Unity;
+			productName = Three20;
+			productReference = BEF31F3A0F352DF5000DE5D2 /* libThree20Unity.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Three20Unity" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF31F390F352DF5000DE5D2 /* Three20Unity */,
+				665A55C6126521740032D0BE /* Three20Unity-Xcode3.2.5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665A55D7126521740032D0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66364CAC12BB1A9200823B28 /* TTGlobalCore.m in Sources */,
+				66364CAE12BB1A9200823B28 /* TTGlobalCoreLocale.m in Sources */,
+				66364CB012BB1A9200823B28 /* TTGlobalCorePaths.m in Sources */,
+				66364CB212BB1A9200823B28 /* TTGlobalCoreRects.m in Sources */,
+				66364CB412BB1A9200823B28 /* NSArrayAdditions.m in Sources */,
+				66364CB612BB1A9200823B28 /* NSDataAdditions.m in Sources */,
+				66364CB812BB1A9200823B28 /* NSDateAdditions.m in Sources */,
+				66364CBA12BB1A9200823B28 /* NSMutableArrayAdditions.m in Sources */,
+				66364CBC12BB1A9200823B28 /* NSMutableDictionaryAdditions.m in Sources */,
+				66364CBE12BB1A9200823B28 /* NSObjectAdditions.m in Sources */,
+				66364CC012BB1A9200823B28 /* NSStringAdditions.m in Sources */,
+				66364CC212BB1A9200823B28 /* TTDebug.m in Sources */,
+				66364CC412BB1A9200823B28 /* TTExtensionLoader.m in Sources */,
+				66364CC612BB1A9200823B28 /* TTExtensionInfo.m in Sources */,
+				66364CC912BB1A9200823B28 /* TTExtensionAuthor.m in Sources */,
+				66364CCB12BB1A9200823B28 /* TTEntityTables.m in Sources */,
+				66364CCD12BB1A9200823B28 /* TTMarkupStripper.m in Sources */,
+				66364D2012BB1AED00823B28 /* TTGlobalNetwork.m in Sources */,
+				66364D2212BB1AED00823B28 /* TTUserInfo.m in Sources */,
+				66364D2412BB1AED00823B28 /* TTErrorCodes.m in Sources */,
+				66364D2612BB1AED00823B28 /* TTModel.m in Sources */,
+				66364D2912BB1AED00823B28 /* TTURLRequestModel.m in Sources */,
+				66364D2D12BB1AED00823B28 /* TTURLDataResponse.m in Sources */,
+				66364D2E12BB1AED00823B28 /* TTURLImageResponse.m in Sources */,
+				66364D3012BB1AED00823B28 /* TTURLRequest.m in Sources */,
+				66364D3212BB1AED00823B28 /* TTRequestLoader.m in Sources */,
+				66364D3612BB1AED00823B28 /* TTURLRequestQueue.m in Sources */,
+				66364D3912BB1AED00823B28 /* TTURLCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF31F370F352DF5000DE5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66364C8412BB1A9200823B28 /* TTGlobalCore.m in Sources */,
+				66364C8612BB1A9200823B28 /* TTGlobalCoreLocale.m in Sources */,
+				66364C8812BB1A9200823B28 /* TTGlobalCorePaths.m in Sources */,
+				66364C8A12BB1A9200823B28 /* TTGlobalCoreRects.m in Sources */,
+				66364C8C12BB1A9200823B28 /* NSArrayAdditions.m in Sources */,
+				66364C8E12BB1A9200823B28 /* NSDataAdditions.m in Sources */,
+				66364C9012BB1A9200823B28 /* NSDateAdditions.m in Sources */,
+				66364C9212BB1A9200823B28 /* NSMutableArrayAdditions.m in Sources */,
+				66364C9412BB1A9200823B28 /* NSMutableDictionaryAdditions.m in Sources */,
+				66364C9612BB1A9200823B28 /* NSObjectAdditions.m in Sources */,
+				66364C9812BB1A9200823B28 /* NSStringAdditions.m in Sources */,
+				66364C9A12BB1A9200823B28 /* TTDebug.m in Sources */,
+				66364C9C12BB1A9200823B28 /* TTExtensionLoader.m in Sources */,
+				66364C9E12BB1A9200823B28 /* TTExtensionInfo.m in Sources */,
+				66364CA112BB1A9200823B28 /* TTExtensionAuthor.m in Sources */,
+				66364CA312BB1A9200823B28 /* TTEntityTables.m in Sources */,
+				66364CA512BB1A9200823B28 /* TTMarkupStripper.m in Sources */,
+				66364D0312BB1AED00823B28 /* TTGlobalNetwork.m in Sources */,
+				66364D0512BB1AED00823B28 /* TTUserInfo.m in Sources */,
+				66364D0712BB1AED00823B28 /* TTErrorCodes.m in Sources */,
+				66364D0912BB1AED00823B28 /* TTModel.m in Sources */,
+				66364D0C12BB1AED00823B28 /* TTURLRequestModel.m in Sources */,
+				66364D1012BB1AED00823B28 /* TTURLDataResponse.m in Sources */,
+				66364D1112BB1AED00823B28 /* TTURLImageResponse.m in Sources */,
+				66364D1312BB1AED00823B28 /* TTURLRequest.m in Sources */,
+				66364D1512BB1AED00823B28 /* TTRequestLoader.m in Sources */,
+				66364D1912BB1AED00823B28 /* TTURLRequestQueue.m in Sources */,
+				66364D1C12BB1AED00823B28 /* TTURLCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		665A55DB126521740032D0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE7364B11849B3D00A35176 /* Library.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(BASE_PRODUCT_NAME)-Xcode3.2.5";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		665A55DC126521740032D0BE /* Internal */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE7364B11849B3D00A35176 /* Library.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(BASE_PRODUCT_NAME)-Xcode3.2.5";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Internal;
+		};
+		665A55DD126521740032D0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE7364B11849B3D00A35176 /* Library.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(BASE_PRODUCT_NAME)-Xcode3.2.5";
+				SDKROOT = iphoneos;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		6E92493F112C6F4000531F03 /* Internal */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E64543D1184BE1B00F08CB1 /* Project.xcconfig */;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+			};
+			name = Internal;
+		};
+		6E924940112C6F4000531F03 /* Internal */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE7364B11849B3D00A35176 /* Library.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/../common/Xcode324iOS41Fix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(BASE_PRODUCT_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Internal;
+		};
+		BEF31F3B0F352DF6000DE5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE7364B11849B3D00A35176 /* Library.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(BASE_PRODUCT_NAME)";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		BEF31F3C0F352DF6000DE5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE7364B11849B3D00A35176 /* Library.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(BASE_PRODUCT_NAME)";
+				SDKROOT = iphoneos4.1;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E64543D1184BE1B00F08CB1 /* Project.xcconfig */;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E64543D1184BE1B00F08CB1 /* Project.xcconfig */;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665A55DA126521740032D0BE /* Build configuration list for PBXNativeTarget "Three20Unity-Xcode3.2.5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665A55DB126521740032D0BE /* Debug */,
+				665A55DC126521740032D0BE /* Internal */,
+				665A55DD126521740032D0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF31F410F352E14000DE5D2 /* Build configuration list for PBXNativeTarget "Three20Unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF31F3B0F352DF6000DE5D2 /* Debug */,
+				6E924940112C6F4000531F03 /* Internal */,
+				BEF31F3C0F352DF6000DE5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Three20Unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				6E92493F112C6F4000531F03 /* Internal */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
