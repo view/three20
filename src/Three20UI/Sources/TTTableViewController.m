@@ -512,7 +512,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)model:(id<TTModel>)model didUpdateObject:(id)object atIndexPath:(NSIndexPath*)indexPath {
   if (model == _model) {
-    if (_isViewAppearing && _flags.isShowingModel) {
+    if (_flags.isShowingModel) {
       if ([_dataSource respondsToSelector:@selector(tableView:willUpdateObject:atIndexPath:)]) {
         NSIndexPath* newIndexPath = [_dataSource tableView:_tableView willUpdateObject:object
                                                atIndexPath:indexPath];
@@ -542,7 +542,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)model:(id<TTModel>)model didInsertObject:(id)object atIndexPath:(NSIndexPath*)indexPath {
   if (model == _model) {
-    if (_isViewAppearing && _flags.isShowingModel) {
+    if (_flags.isShowingModel) {
       if ([_dataSource respondsToSelector:@selector(tableView:willInsertObject:atIndexPath:)]) {
         NSIndexPath* newIndexPath = [_dataSource tableView:_tableView willInsertObject:object
                                                atIndexPath:indexPath];
@@ -555,10 +555,10 @@
           } else if (newIndexPath.length == 2) {
             TTDCONDITIONLOG(TTDFLAG_TABLEVIEWMODIFICATIONS, @"INSERTING ROW AT %@", newIndexPath);
             [_tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:newIndexPath]
-                              withRowAnimation:UITableViewRowAnimationTop];
+                              withRowAnimation:UITableViewRowAnimationBottom];
 
-            [_tableView scrollToRowAtIndexPath:newIndexPath
-                              atScrollPosition:UITableViewScrollPositionNone animated:NO];
+            //[_tableView scrollToRowAtIndexPath:newIndexPath
+            //                  atScrollPosition:UITableViewScrollPositionNone animated:NO];
           }
           [self invalidateView];
         } else {
@@ -575,7 +575,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)model:(id<TTModel>)model didDeleteObject:(id)object atIndexPath:(NSIndexPath*)indexPath {
   if (model == _model) {
-    if (_isViewAppearing && _flags.isShowingModel) {
+    if (_flags.isShowingModel) {
       if ([_dataSource respondsToSelector:@selector(tableView:willRemoveObject:atIndexPath:)]) {
         NSIndexPath* newIndexPath = [_dataSource tableView:_tableView willRemoveObject:object
                                                atIndexPath:indexPath];

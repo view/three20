@@ -167,9 +167,7 @@
     NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
     [formatter setDateStyle:NSDateFormatterShortStyle];
     [formatter setTimeStyle:NSDateFormatterShortStyle];
-    _lastUpdatedLabel.text = [NSString stringWithFormat:
-                              TTLocalizedString(@"Last updated: %@",
-                                                @"The last time the table view was updated."),
+    _lastUpdatedLabel.text = [NSString stringWithFormat:@"Last updated: %@",
                               [formatter stringFromDate:_lastUpdatedDate]];
     [formatter release];
 
