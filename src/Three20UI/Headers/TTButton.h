@@ -30,7 +30,7 @@
 @property (nonatomic, retain) UIFont* font;
 @property (nonatomic)         BOOL    isVertical;
 
-// This must be set before you call setImage:
+// This must be set before you call setImageURL:
 @property (nonatomic, assign) id<TTImageViewDelegate> imageDelegate;
 
 + (TTButton*)buttonWithStyle:(NSString*)selector;
@@ -39,8 +39,11 @@
 - (NSString*)titleForState:(UIControlState)state;
 - (void)setTitle:(NSString*)title forState:(UIControlState)state;
 
-- (NSString*)imageForState:(UIControlState)state;
-- (void)setImage:(NSString*)title forState:(UIControlState)state;
+- (NSString*)imageURLForState:(UIControlState)state;
+- (void)setImageURL:(NSString*)imageURL forState:(UIControlState)state;
+
+- (UIImage*)imageForState:(UIControlState)state;
+- (void)setImage:(UIImage*)image forState:(UIControlState)state;
 
 - (TTStyle*)styleForState:(UIControlState)state;
 - (void)setStyle:(TTStyle*)style forState:(UIControlState)state;

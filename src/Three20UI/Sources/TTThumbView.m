@@ -54,7 +54,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)setThumbURL:(NSString*)URL {
-  [self setImage:URL forState:UIControlStateNormal];
+  [self setImageURL:URL forState:UIControlStateNormal];
 }
 
 

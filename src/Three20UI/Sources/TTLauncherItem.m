@@ -27,7 +27,7 @@
 
 @synthesize launcher    = _launcher;
 @synthesize title       = _title;
-@synthesize image       = _image;
+@synthesize imageURL    = _imageURL;
 @synthesize URL         = _URL;
 @synthesize style       = _style;
 @synthesize badgeNumber = _badgeNumber;
@@ -41,8 +41,8 @@
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-- (id)initWithTitle:(NSString*)title image:(NSString*)image URL:(NSString*)URL {
-  if (self = [self initWithTitle:title image:image URL:URL canDelete:NO]) {
+- (id)initWithTitle:(NSString*)title imageURL:(NSString*)imageURL URL:(NSString*)URL {
+  if (self = [self initWithTitle:title imageURL:imageURL URL:URL canDelete:NO]) {
   }
 
   return self;
@@ -50,13 +50,13 @@
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-- (id)initWithTitle:(NSString*)title image:(NSString*)image URL:(NSString*)URL
+- (id)initWithTitle:(NSString*)title imageURL:(NSString*)imageURL URL:(NSString*)URL
       canDelete:(BOOL)canDelete {
   if (self = [super init]) {
     _canDelete = canDelete;
 
     self.title = title;
-    self.image = image;
+    self.imageURL = imageURL;
     self.URL = URL;
   }
 
@@ -67,7 +67,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)dealloc {
   TT_RELEASE_SAFELY(_title);
-  TT_RELEASE_SAFELY(_image);
+  TT_RELEASE_SAFELY(_imageURL);
   TT_RELEASE_SAFELY(_URL);
   TT_RELEASE_SAFELY(_style);
 
@@ -85,7 +85,14 @@
 - (id)initWithCoder:(NSCoder*)decoder {
   if (self = [super init]) {
     self.title = [decoder decodeObjectForKey:@"title"];
-    self.image = [decoder decodeObjectForKey:@"image"];
+	if ([decoder containsValueForKey:@"image"]) //backword compatible coder
+	{
+		self.imageURL = [decoder decodeObjectForKey:@"image"];
+	}
+	else
+	{
+		self.imageURL = [decoder decodeObjectForKey:@"imageURL"];
+	}
     self.URL = [decoder decodeObjectForKey:@"URL"];
     self.style = [decoder decodeObjectForKey:@"style"];
     self.canDelete = [decoder decodeBoolForKey:@"canDelete"];
@@ -98,7 +105,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)encodeWithCoder:(NSCoder*)encoder {
   [encoder encodeObject:_title forKey:@"title"];
-  [encoder encodeObject:_image forKey:@"image"];
+  [encoder encodeObject:_imageURL forKey:@"imageURL"];
   [encoder encodeObject:_URL forKey:@"URL"];
   [encoder encodeObject:_style forKey:@"style"];
   [encoder encodeBool:_canDelete forKey:@"canDelete"];

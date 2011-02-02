@@ -71,7 +71,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)requestDidStartLoad:(TTURLRequest*)request {
-  [_request release];
+  [_request autorelease];
   _request = [request retain];
 
   if ([_delegate respondsToSelector:@selector(imageViewDidStartLoad:)]) {
@@ -122,7 +122,7 @@
     return;
 
   [self stopLoading];
-  [_imageURL release];
+  [_imageURL autorelease];
   _imageURL = [URL retain];
 
   if (_imageURL.length) {
@@ -130,8 +130,13 @@
 
   } else {
     self.image = nil;
-    [_button setNeedsDisplay];
   }
+}
+
+- (void)setImage:(UIImage*)image {
+  [_image autorelease];
+  _image = [image retain];
+  [_button setNeedsDisplay];
 }
 
 
@@ -141,7 +146,6 @@
     UIImage* image = [[TTURLCache sharedCache] imageForURL:_imageURL];
     if (image) {
       self.image = image;
-      [_button setNeedsDisplay];
 
       if ([_delegate respondsToSelector:@selector(imageView:didLoadImage:)]) {
         [_delegate imageView:nil didLoadImage:image];

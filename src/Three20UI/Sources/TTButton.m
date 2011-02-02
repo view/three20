@@ -381,19 +381,30 @@ static const CGFloat kVPadding = 7;
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-- (NSString*)imageForState:(UIControlState)state {
+- (NSString*)imageURLForState:(UIControlState)state {
   return [self contentForState:state].imageURL;
 }
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-- (void)setImage:(NSString*)imageURL forState:(UIControlState)state {
+- (void)setImageURL:(NSString*)imageURL forState:(UIControlState)state {
   TTButtonContent* content = [self contentForState:state];
   content.delegate = self.imageDelegate;
   content.imageURL = imageURL;
   [self setNeedsDisplay];
 }
 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (UIImage*)imageForState:(UIControlState)state{
+	return [self contentForState:state].image;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)setImage:(UIImage*)image forState:(UIControlState)state {
+	TTButtonContent* content = [self contentForState:state];
+	content.image = image;
+	[self setNeedsDisplay];	
+}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (TTStyle*)styleForState:(UIControlState)state {

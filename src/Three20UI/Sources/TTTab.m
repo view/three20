@@ -112,7 +112,7 @@
     [_tabItem performSelector:@selector(setTabBar:) withObject:self];
 
     [self setTitle:_tabItem.title forState:UIControlStateNormal];
-    [self setImage:_tabItem.icon forState:UIControlStateNormal];
+    [self setImageURL:_tabItem.icon forState:UIControlStateNormal];
 
     if (_tabItem.badgeNumber) {
       [self updateBadgeNumber];

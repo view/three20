@@ -59,7 +59,7 @@ static const NSInteger kMaxBadgeNumber = 99;
 
     NSString* title =  [[NSBundle mainBundle] localizedStringForKey:item.title value:nil table:nil];
     [self setTitle:title forState:UIControlStateNormal];
-    [self setImage:item.image forState:UIControlStateNormal];
+    [self setImageURL:item.imageURL forState:UIControlStateNormal];
 
     if (item.style) {
       [self setStylesWithSelector:item.style];
@@ -204,7 +204,7 @@ static const NSInteger kMaxBadgeNumber = 99;
 - (TTButton*)closeButton {
   if (!_closeButton && _item.canDelete) {
     _closeButton = [[TTButton buttonWithStyle:@"launcherCloseButton:"] retain];
-    [_closeButton setImage:@"bundle://Three20.bundle/images/closeButton.png"
+    [_closeButton setImageURL:@"bundle://Three20.bundle/images/closeButton.png"
                   forState:UIControlStateNormal];
     _closeButton.size = CGSizeMake(26,29);
     _closeButton.isVertical = YES;
