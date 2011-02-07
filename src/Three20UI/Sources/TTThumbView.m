@@ -48,7 +48,11 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (NSString*)thumbURL {
-  return [self imageForState:UIControlStateNormal];
+  return [self imageURLForState:UIControlStateNormal];
+}
+
+- (UIImage*)thumb {
+	return [self imageForState:UIControlStateNormal];
 }
 
 
