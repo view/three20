@@ -1,5 +1,5 @@
 //
-// Copyright 2009-2011 Facebook
+// Copyright 2009-2010 Facebook
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -14,26 +14,16 @@
 // limitations under the License.
 //
 
-/*! \mainpage Three20 API Documentation
- *
- * Generated from Three20 Release <a href="http://three20.info/roadmap/v1.0.3">v1.0.3</a>.
- *
- */
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-// Core
-#import "Three20Core/Three20Core.h"
+@interface TTTableFooterInfiniteScrollView : UIView {
+  UIActivityIndicatorView* _indicator;
+  BOOL _loading;
+}
 
-// Network
-#import "Three20Network/Three20Network.h"
+@property (nonatomic, retain) UIActivityIndicatorView* indicator;
 
-// Style
-#import "Three20Style/Three20Style.h"
+- (void)setLoading:(BOOL)loading;
 
-// UICommon
-#import "Three20UICommon/Three20UICommon.h"
-
-// UINavigator
-#import "Three20UINavigator/Three20UINavigator.h"
-
-// UI
-#import "Three20UI/Three20UI.h"
+@end
