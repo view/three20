@@ -148,4 +148,5 @@
  */
 - (CGRect)rectForBannerView;
 
+
 @end
