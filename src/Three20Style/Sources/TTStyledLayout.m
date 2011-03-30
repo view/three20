@@ -56,7 +56,8 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (id)initWithRootNode:(TTStyledNode*)rootNode {
-  if (self = [super init]) {
+  self = [super init];
+  if (self) {
     _rootNode = rootNode;
   }
 
@@ -66,13 +67,13 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (id)initWithX:(CGFloat)x width:(CGFloat)width height:(CGFloat)height {
-  if (self = [super init]) {
+  self = [super init];
+  if (self) {
     _x = x;
     _minX = x;
     _width = width;
     _height = height;
   }
-
   return self;
 }
 
@@ -758,7 +759,6 @@
                       sizeWithFont:_font].width;
         [self addFrameForText:line element:element node:textNode width:frameWidth
               height:[_font ttLineHeight]];
-        frameWidth = 0;
       }
     }
   }
