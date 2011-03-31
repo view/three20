@@ -29,7 +29,8 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (id)initWithFrame:(CGRect)frame {
-  if (self = [super initWithFrame:frame]) {
+  self = [super initWithFrame:frame];
+  if (self) {
     self.backgroundColor = TTSTYLEVAR(thumbnailBackgroundColor);
     self.clipsToBounds = YES;
 
@@ -51,7 +52,7 @@
   return [self imageURLForState:UIControlStateNormal];
 }
 
-- (UIImage*)thumb {
+- (UIImage *)thumb {
 	return [self imageForState:UIControlStateNormal];
 }
 

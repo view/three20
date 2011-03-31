@@ -17,7 +17,7 @@
 #import "Three20UI/TTButton.h"
 
 // UI (private)
-#import "Three20UI/private/TTButtonContent.h"
+#import "Three20UI/TTButtonContent.h"
 
 // UI
 #import "Three20UI/TTImageViewDelegate.h"
@@ -51,7 +51,8 @@ static const CGFloat kVPadding = 7;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (id)initWithFrame:(CGRect)frame {
-  if (self = [super initWithFrame:frame]) {
+  self = [super initWithFrame:frame];
+  if (self) {
     self.backgroundColor = [UIColor clearColor];
     self.contentMode = UIViewContentModeRedraw;
   }
@@ -413,7 +414,7 @@ static const CGFloat kVPadding = 7;
 - (void)setImage:(UIImage*)image forState:(UIControlState)state {
 	TTButtonContent* content = [self contentForState:state];
 	content.image = image;
-	[self setNeedsDisplay];	
+  [self setNeedsDisplay];
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

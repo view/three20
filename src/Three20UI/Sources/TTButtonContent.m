@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Three20UI/private/TTButtonContent.h"
+#import "Three20UI/TTButtonContent.h"
 
 // UI
 #import "Three20UI/TTImageViewDelegate.h"
@@ -42,7 +42,8 @@
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (id)initWithButton:(TTButton*)button {
-  if (self = [super init]) {
+  self = [super init];
+  if (self) {
     _button = button;
   }
   return self;
